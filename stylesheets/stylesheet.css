@@ -106,7 +106,7 @@ a {
 
 .center-img {
   margin: auto;
-  width: 60%;
+  width: 70%;
 }
 
 .main-content :first-child {
@@ -285,4 +285,11 @@ a {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   animation-delay: 2.5s;
+}
+a > img {
+  opacity:0.75;
+  transition:opacity .5s;
+}
+a:hover > img {
+  opacity:1;
 }
